@@ -8,4 +8,4 @@ Group = Y3S1 02.1(IT weekend)
 
 Function = Patient Management
 
-Repository include = Project Files(Complete Read ,insert, delete, update crude opertaion in client side), DB Script(.sql)
+Repository include = Project Files(Completed Read ,insert, delete, update crude opertaion in client side and added validations), DB Script(.sql)
