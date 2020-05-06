@@ -7,16 +7,10 @@ DROP TABLE IF EXISTS patient;
 
 CREATE TABLE IF NOT EXISTS patient (
   PID int(11) NOT NULL ,
-  FIRST_NAME varchar(45) NOT NULL,
-  LAST_NAME varchar(45) NOT NULL,
-  USER_NAME varchar(45) NOT NULL,
-  AGE int(11) NOT NULL,
-  GENDER varchar(10) NOT NULL,
-  EMAIL_ADDRESS varchar(45) NOT NULL,
-  PERMENT_ADDRESS varchar(45) NOT NULL,
-  CONTACT_NO int(10) NOT NULL,
-  PASSWORD varchar(45) NOT NULL,
-  CONFIRM_PASSWORD varchar(45) NOT NULL,
+  PatientName varchar(45) NOT NULL,
+  Email varchar(45) NOT NULL,
+  Phone varchar(45) NOT NULL,
+  Password varchar(10) NOT NULL,
   PRIMARY KEY (PID)
 );
 select * from patient;
